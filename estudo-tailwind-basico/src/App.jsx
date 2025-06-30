@@ -9,10 +9,15 @@ function App() {
   return (
     <>
       <nav>
-        <ul>
+        <ul className="flex gap-x-4">
           <li>
             <Link to="/cores">
               Cores
+            </Link>
+          </li>
+          <li>
+            <Link to="/espacamentos-tamanhos">
+              Espaçamentos e Tamanhos
             </Link>
           </li>
         </ul>
