@@ -8,6 +8,16 @@ function App() {
 
   return (
     <>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/cores">
+              Cores
+            </Link>
+          </li>
+        </ul>
+      </nav>
+
       <div className="flex items-center justify-center min-h-screen">
         <div className="flex flex-col bg-amber-400">
           <h1 className="text-3xl font-bold underline mb-5">TailWind Estudo</h1>
@@ -34,11 +44,6 @@ function App() {
 
           <p>Número: {count}</p>
         </div>
-
-        <Link to="/cores">
-          Cores
-        </Link>
-
       </div>
     </>
   );
