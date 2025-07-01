@@ -14,10 +14,15 @@ function App() {
             <Link to="/cores">
               Cores
             </Link>
-          </li>
+          </li> |
           <li>
             <Link to="/espacamentos-tamanhos">
               Espaçamentos e Tamanhos
+            </Link>
+          </li> |
+          <li>
+            <Link to="/tipografia">
+              Tipografia
             </Link>
           </li>
         </ul>
