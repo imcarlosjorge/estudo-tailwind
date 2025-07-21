@@ -8,6 +8,7 @@ import App from './App.jsx'
 import { Cores } from './assets/pages/cores.jsx';
 import { EspacamentosTamanhos } from './assets/pages/espacamentos&tamanhos.jsx';
 import { Tipografia } from './assets/pages/tipografia.jsx';
+import { BordasESombras } from './assets/pages/bordasSombras.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/cores' element={<Cores />}/>
         <Route path='/tipografia' element={<Tipografia />}/>
         <Route path='/espacamentos-tamanhos' element={<EspacamentosTamanhos />}/>
+        <Route path='/bordas-sombras' element={<BordasESombras />}/>
       </Routes>
     </Router>
   </StrictMode>

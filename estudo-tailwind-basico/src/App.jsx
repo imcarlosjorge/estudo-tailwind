@@ -24,6 +24,11 @@ function App() {
             <Link to="/tipografia">
               Tipografia
             </Link>
+          </li> |
+          <li>
+            <Link to="/bordas-sombras">
+              Bordas e Sombras
+            </Link>
           </li>
         </ul>
       </nav>
