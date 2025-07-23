@@ -21,6 +21,19 @@ export const BordasESombras = () => {
             <div className="border-4 border-t-red-200 border-r-orange-400 border-l-amber-200 border-b-cyan-700 p-4 rounded">Borda colorida</div>
         </div>
       </section>
+
+      <h1 className="m-[2rem] font-bold">Sombras</h1>
+
+      <section className="flex gap-10">
+        <div className="shadow size-[100px] ml-[1rem]">Shadow Padrão</div>
+        <div className="shadow-sm size-[100px] ml-[1rem]">Shadow SM</div>
+        <div className="shadow-md size-[100px] ml-[1rem]">Shadow MD</div>
+        <div className="shadow-lg size-[100px] ml-[1rem]">Shadow LG</div>
+        <div className="shadow-xl size-[100px] ml-[1rem]">Shadow XL</div>
+        <div className="shadow-2xl shadow-blue-800 size-[100px] ml-[1rem]">Shadow 2XL</div>
+        <div className="shadow-2xl shadow-blue-800/50 size-[100px] ml-[1rem]">Shadow 2XL</div>
+        <div className="text-shadow-2xs text-shadow-yellow-400">Shadow em Texto</div>
+      </section>
     </>
   );
 };

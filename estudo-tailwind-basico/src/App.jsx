@@ -29,6 +29,11 @@ function App() {
             <Link to="/bordas-sombras">
               Bordas e Sombras
             </Link>
+          </li> |
+          <li>
+            <Link to="/positions">
+            Positions
+            </Link>
           </li>
         </ul>
       </nav>
