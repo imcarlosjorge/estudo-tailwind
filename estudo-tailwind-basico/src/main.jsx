@@ -10,6 +10,7 @@ import { EspacamentosTamanhos } from "./assets/pages/espacamentos&tamanhos.jsx";
 import { Tipografia } from "./assets/pages/tipografia.jsx";
 import { BordasESombras } from "./assets/pages/bordasSombras.jsx";
 import { Positions } from "./assets/pages/positions.jsx";
+import { Flexbox } from "./assets/pages/flexbox.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -24,6 +25,7 @@ createRoot(document.getElementById("root")).render(
         />
         <Route path="/bordas-sombras" element={<BordasESombras />} />
         <Route path="/positions" element={<Positions />} />
+        <Route path="/flexbox" element={<Flexbox />} />
       </Routes>
     </Router>
   </StrictMode>

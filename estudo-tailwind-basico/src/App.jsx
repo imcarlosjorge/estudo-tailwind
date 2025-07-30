@@ -34,7 +34,12 @@ function App() {
             <Link to="/positions">
             Positions
             </Link>
-          </li>
+          </li> |
+          <li>
+            <Link to="/flexbox">
+            FlexBox
+            </Link>
+          </li> |
         </ul>
       </nav>
 
