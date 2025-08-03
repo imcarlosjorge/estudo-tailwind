@@ -40,6 +40,16 @@ function App() {
             FlexBox
             </Link>
           </li> |
+          <li>
+            <Link to="/grid">
+            Grid
+            </Link>
+          </li> |
+          <li>
+            <Link to="/design-responsivo">
+            Design Responsivo
+            </Link>
+          </li> |
         </ul>
       </nav>
 

@@ -11,6 +11,8 @@ import { Tipografia } from "./assets/pages/tipografia.jsx";
 import { BordasESombras } from "./assets/pages/bordasSombras.jsx";
 import { Positions } from "./assets/pages/positions.jsx";
 import { Flexbox } from "./assets/pages/flexbox.jsx";
+import  {Grid} from "./assets/pages/grid.jsx";
+import { DesignResponsivo } from "./assets/pages/designResponsivo.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -26,6 +28,8 @@ createRoot(document.getElementById("root")).render(
         <Route path="/bordas-sombras" element={<BordasESombras />} />
         <Route path="/positions" element={<Positions />} />
         <Route path="/flexbox" element={<Flexbox />} />
+        <Route path="/grid" element={<Grid />} />
+        <Route path="/design-responsivo" element={<DesignResponsivo />} />
       </Routes>
     </Router>
   </StrictMode>
