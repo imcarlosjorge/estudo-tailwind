@@ -13,6 +13,8 @@ import { Positions } from "./assets/pages/positions.jsx";
 import { Flexbox } from "./assets/pages/flexbox.jsx";
 import  {Grid} from "./assets/pages/grid.jsx";
 import { DesignResponsivo } from "./assets/pages/designResponsivo.jsx";
+import {ContainerQueries} from "./assets/pages/containerQueries.jsx";
+import { Filters } from "./assets/pages/filters.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -30,6 +32,8 @@ createRoot(document.getElementById("root")).render(
         <Route path="/flexbox" element={<Flexbox />} />
         <Route path="/grid" element={<Grid />} />
         <Route path="/design-responsivo" element={<DesignResponsivo />} />
+        <Route path="/container-queries" element={<ContainerQueries />} />
+        <Route path="/filters" element={<Filters />} />
       </Routes>
     </Router>
   </StrictMode>

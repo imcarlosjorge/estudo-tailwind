@@ -50,6 +50,16 @@ function App() {
             Design Responsivo
             </Link>
           </li> |
+          <li>
+            <Link to="/container-queries">
+            Container Queries
+            </Link>
+          </li> |
+          <li>
+            <Link to="/filters">
+            Filters
+            </Link>
+          </li> |
         </ul>
       </nav>
 
